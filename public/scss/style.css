@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+.logo img{
+    width: 125px;
+    padding: 0px 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 50px; */
+    padding-top: 20px;
+}
+.item{
+    display: flex;
+    margin-right: 85px;
+}
+li{
+    list-style: none;
+    padding: 0px 29px;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    transition: 0.6s ease-in-out;
+}
+a:hover{
+    color: #ff4e26;
+    font-weight: bold;
+}
+.container{
+    margin: 90px 95px;
+    display: flex;
+    align-items: center;
+    min-height: 65vh;
+}
+span{
+    font-family: 'Water Brush', cursive;
+    font-weight: lighter;
+    font-size: 3.4rem;
+    color: #ff4e40;
+}
+.container h1{
+    color: #ff4e26;
+}
+.container p{
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+.r-sec img{
+    width: 38vw;
+}
+.about h2 {
+    color:#ff4e26;
+    text-align: center;
+    font-size: 2rem;
+}
+.pro{
+    margin: 14px 74px;
+}
+h3{
+    text-align: center;
+    color: #ff4e26;
+    font-size: 1.3rem;
+}
+.b-set1{
+    display: flex;
+    justify-content: center;
+}
+.b-set2{
+    display: flex;
+    justify-content: center;
+
+}
+.box{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding: 25px 120px;
+    margin: 20px 40px;
+    color: white;
+}
+
+.b1{
+    background-color: #ff473d;
+    cursor: pointer;
+}
+.b2{
+    background-color: #7aff3d;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: #98ff68;
+    
+}
+.b2:hover{
+    background-color: #ff5b52;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 10px 270px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #ff4e26;
+    margin: 14px;
+}
+textarea{
+    padding: 10px 270px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #ff4e26;
+    margin: 14px;
+}
+button{
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: #ff473d;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 2px solid #ff4e26;
+    margin: 14px;
+    color: white;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #98ff68;
+}
+.contact h2{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #ff473d;
+    color: white;
+    align-items: center;
+}
+.ham{
+    display: none;
+
+}

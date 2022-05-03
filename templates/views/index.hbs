@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corsa - Shapes TO Inspire</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <link rel="stylesheet" href="scss/style.css">
+        <link rel="stylesheet" href="scss/reset.css">
+        <link rel="stylesheet" href="scss/resp.css">
+    
+</head>
+<body>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-16x16.png">
+    <header>
+    <nav class="navbar">
+        <div class="logo"><img src="logo.png" alt=""></div>
+        <ul class="item item-new">
+           <a href="#"><li>Home</li></a> 
+          <a href="#about"> <li>About Us</li></a> 
+          <a href="#deal">  <li>Deals</li></a>
+         <a href="#con"> <li>Contact Us</li></a>  
+        </ul>
+        <div class="ham">
+            <img src="menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+        </div>
+    </nav>
+</header>
+
+
+
+<main>
+    <div class="container " >
+        <section class="l-sec">
+            <h1><span>Corsa</span> -- Shapes TO Inspire</h1>
+            <p>Enjoy Your Bath In a Luxury Way , Corsa India's no - 1 Luxury bath designe</p>
+            <button type="submit">Read More</button>
+        </section>
+        <section class="r-sec">
+            <img src="5031659.jpg" alt="">
+        </section>
+        
+    </div>
+    <div class="" id="about">
+   <h3>About Us</h3 >
+   <h3>We Are The Team of Experts , Who Cares Your Products -- Team <span>Corsa</span></h3>
+    <div class="container ">
+        <section class="l-sec">
+                       <h1><span>Corsa</span> -- Shapes TO Inspire</h1>
+
+            <p>tazioni
+                A cosa serve che tu corra quando non serve mpregna ancora l'aria e rende i marciapiedi scivolosi e lucidi, è un buon modo per cominciare la giornata. (Mario Vargas Llosa)</p>
+        </section>
+        <section class="r-sec">
+            <img src="5484597.jpg" alt="">
+        </section>
+        </div>
+    </div>
+   
+    <div class="deals" id="deal">
+        <h3>Deals</h3>
+        <div class="boxes">
+            <div class="b-set1" > <div class="box b1">Budget Fittings</div>
+            <div class="box b1" >Sensors</div></div>
+           <div class="b-set2" > <div class="box b2">Sanitary  wares</div>
+            <div class="box b2">Kitchen Sinks</div></div>
+           
+        </div>
+    </div>
+
+    <div class="contact" id="con">
+        <h3>Contact Us</h3>
+        <h2>Describe Your Complaints/Suggestions Here !!</h2>
+        <form action="/contact" method="POST">
+            <input type="text" placeholder="Enter Your Name" id="name" name="name" >
+            <input type="email" placeholder="Enter Your Email" id="email" name="email">
+            <input type="number" placeholder="Enter Your Phone Number" id="Phone" name="phone">
+            <input type="text" placeholder="Enter Your Complaint Here" id="message" name="message">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</main>
+<footer>
+    All TradeMarks Are Reserved for Corsa.com  || Created BY Adithya S Poojary
+</footer>
+{{!-- <script src="/public/js/resp.js"></script> --}}
+<script>
+    ham = document.querySelector('.ham')
+    item= document.querySelector('.item')
+
+ham.addEventListener('click',()=>{
+    item.classList.toggle('item-new')
+
+})
+
+ 
+</script>
+    
+</body>
+</html>
